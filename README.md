@@ -1,5 +1,8 @@
 # Movie_HITS
 An application of the HITS (hubs and authorities) algorithm to the Movielens ratings dataset.
+Calling *hits.py* builds the bipartite graph, runs the HITS algorithm (max iteration of 1000) and prints the top 100 movies by their authority score.
+
+**Libraries Used:** pandas, networkx
 
 Read about the HITS algorithm [here](https://en.wikipedia.org/wiki/HITS_algorithm).
 
